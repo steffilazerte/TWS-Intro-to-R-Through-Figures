@@ -5,9 +5,7 @@ title: TWS - Intro to R Through Figures
 
 ```{r, include = FALSE}
 if(!dir.exists("./figures/")) dir.create("./figures")
-imgs <- c("../AA_Common/Figures/rstudio_panes.png",
-          "../AA_Common/Figures/A1_packages_edit.png")
-file.copy(imgs, "./figures/", overwrite = TRUE)
+file.copy("../AA_Common/Figures/A1_packages_edit.png", "./figures/", overwrite = TRUE)
 ```
 
 
