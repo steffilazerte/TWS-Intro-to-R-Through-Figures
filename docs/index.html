@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -112,33 +112,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 61px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -307,8 +307,6 @@ $(document).ready(function () {
 </div>
 
 
-<!-- Notes for next time: -->
-<!-- - Consider mandatory reading of R for Data Science -->
 <div id="welcome" class="section level1">
 <h1>Welcome!</h1>
 <p>I’m excited for the opportunity to share my love of R with you through this workshop. This site should give you all the details you need to get you ready to participate.</p>
@@ -357,7 +355,7 @@ If you have any problems installing the software or packages, <a href="contact.h
 <li>For all Operating systems (i.e., Windows, Mac Os, Linux, etc.) go to RStudio’s download page: <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></li>
 <li>Download and install the <strong>installer</strong> that matches your system (i.e. select your link from the top options, not the Zip/Tarball options)</li>
 </ul>
-<p>Open RStudio <img src="figures/RStudio-Ball.png" alt="RStudio Logo" style="height: 30px;"/> <strong>not R</strong> <img src="figures/R.png" alt="R Logo" style="height: 30px;"/>. RStudio automatically opens R for you in the ‘Console’ pane</p>
+<p>Open RStudio <img src="https://d33wubrfki0l68.cloudfront.net/3099a8a5ab437c8cca2446dfb08383ecfca761ec/0377b/wp-content/uploads/2014/06/rstudio-ball.png" alt="RStudio Logo" style="height: 30px;"/> <strong>not R</strong> <img src="https://www.r-project.org/logo/Rlogo.png" alt="R Logo" style="height: 30px;"/>. RStudio automatically opens R for you in the ‘Console’ pane</p>
 <p><strong>Verify that your version of R by looking at the first line of the console (left or lower left pane), you should see something like this:</strong></p>
 <pre><code>R version 4.0.3 (2020-10-10) -- &quot;Bunny-Wunnies Freak Out&quot;
 Copyright (C) 2020 The R Foundation for Statistical Computing
@@ -379,7 +377,7 @@ Type &#39;q()&#39; to quit R.</code></pre>
 <p>The important line is the first one: <code>R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"</code></p>
 </div>
 <div id="packages" class="section level2">
-<h2>3) Install packages package</h2>
+<h2>3. Install packages</h2>
 <p>Packages are extensions or add-ons for R. You will use many different ones over the course of your work with R.</p>
 <p>You are going to install the <code>ggplot2</code>, <code>patchwork</code>, and <code>palmerpenguins</code> packages</p>
 <p>In RStudio:</p>
@@ -401,6 +399,8 @@ The downloaded source packages are in
 <ul>
 <li>Test that your installation had no problems by typing <code>library(ggplot2)</code> into the console and hitting enter. You should just get a prompt (“&gt;”) with no messages.</li>
 </ul>
+<pre><code>&gt; library(ggplot2)
+&gt; </code></pre>
 <blockquote>
 <h2 id="problems">Problems?</h2>
 <ul>
@@ -411,7 +411,7 @@ The downloaded source packages are in
 </blockquote>
 <p><strong>Congratulations! Now you’re ready to get into the fun stuff :)</strong></p>
 <hr />
-<p>[1] “Updated 2020-11-14 11:48:11 CST”</p>
+<p>Updated 2020-11-14 12:03:08 CST</p>
 </div>
 </div>
 

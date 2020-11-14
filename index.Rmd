@@ -2,17 +2,11 @@
 title: TWS - Intro to R Through Figures
 ---
 
-<!-- Notes for next time: -->
-<!-- - Consider mandatory reading of R for Data Science -->
-
-
 
 ```{r, include = FALSE}
 if(!dir.exists("./figures/")) dir.create("./figures")
-imgs <- c("../../Figures/R.png", 
-          "../../Figures/RStudio-Ball.png", 
-          "../../Figures/rstudio_panes.png",
-          "../../Figures/A1_packages_edit.png")
+imgs <- c("../AA_Common/Figures/rstudio_panes.png",
+          "../AA_Common/Figures/A1_packages_edit.png")
 file.copy(imgs, "./figures/", overwrite = TRUE)
 ```
 
@@ -66,7 +60,7 @@ __Linux: Debian/Ubuntu__
 - For all Operating systems (i.e., Windows, Mac Os, Linux, etc.) go to RStudio's download page:  <https://www.rstudio.com/products/rstudio/download/#download>
 - Download and install the __installer__ that matches your system (i.e. select your link from the top options, not the Zip/Tarball options)
 
-Open RStudio <img src="figures/RStudio-Ball.png" alt="RStudio Logo" style="height: 30px;"/> **not R** <img src="figures/R.png" alt="R Logo" style="height: 30px;"/>. RStudio automatically opens R for you in the 'Console' pane
+Open RStudio <img src="https://d33wubrfki0l68.cloudfront.net/3099a8a5ab437c8cca2446dfb08383ecfca761ec/0377b/wp-content/uploads/2014/06/rstudio-ball.png" alt="RStudio Logo" style="height: 30px;"/> **not R** <img src="https://www.r-project.org/logo/Rlogo.png" alt="R Logo" style="height: 30px;"/>. RStudio automatically opens R for you in the 'Console' pane
 
 **Verify that your version of R by looking at the first line of the console (left or lower left pane), you should see something like this:**
 
@@ -92,7 +86,7 @@ Type 'q()' to quit R.
 
 The important line is the first one: `R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"`
 
-## 3) Install packages package {#packages}
+## 3. Install packages {#packages}
 
 Packages are extensions or add-ons for R. You will use many different ones over the course of your work with R. 
 
@@ -119,6 +113,13 @@ The downloaded source packages are in
 
 - Test that your installation had no problems by typing `library(ggplot2)` into the console and hitting enter. You should just get a prompt (">") with no messages.
 
+
+```
+> library(ggplot2)
+> 
+```
+
+
 > ## Problems?
 > - If you already had R/RStudio installed, try removing them both and installing everything from scratch
 > - If you get an error about a problem installing a specific package, try installing that package invidiually (search for it in the install packages menu)
@@ -129,6 +130,6 @@ __Congratulations! Now you're ready to get into the fun stuff :)__
 ---
 
 ```{r, echo = FALSE, results = "asis"}
-paste0("Updated ", format(Sys.time(), usetz = TRUE))
+cat(paste0("Updated ", format(Sys.time(), usetz = TRUE)))
 ```
 

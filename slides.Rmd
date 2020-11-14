@@ -2,15 +2,13 @@
 title: "Slides"
 ---
 
-```{r, echo = FALSE}
+```{r, include = FALSE}
 f <- list.files("_labs", pattern = "tws_intro_to_r", full.names = TRUE)
 file.copy(f, "slides/")
 ```
 
 
-Answers to the mini-assignments will be available after the workshop :)
 
-## Slides
 
 - Regular Slides ([PDF]() | [PDF Handout Style]()) [*Available closer to the workshop date*]
 - Answer Slides ([PDF]() | [PDF Handout Style]()) [*Available after the workshop*]
