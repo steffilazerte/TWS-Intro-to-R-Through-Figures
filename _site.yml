@@ -1,0 +1,15 @@
+name: "TWS - Intro to R Through Figures"
+exclude: [""]
+navbar:
+  title: "TWS - Intro to R Through Figures"
+  left:
+    - text: "Prep"
+      href: index.html
+    - text: "Slides"
+      href: slides.html
+    - text: "Contact"
+      href: contact.html
+output:
+  html_document:
+    theme: journal
+    css: styles.css
