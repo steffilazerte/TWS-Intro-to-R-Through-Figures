@@ -90,11 +90,20 @@ Packages are extensions or add-ons for R. You will use many different ones over 
 
 You are going to install the `ggplot2`, `patchwork`, and `palmerpenguins` packages
 
-In RStudio:
+With code:
+
+Type in the following and hit enter
+```{r, eval = FALSE}
+install.packages(c("ggplot2", "patchwork", "palmerpenguins"))
+```
+
+**OR**
+
+With Menus:
 
 - Click on the 'Packages' tab in the lower right hand corner
 - Click on the 'Install' button right below the tab
-- Type 'ggplot2' into the 'Packages' box, and click on 'Install' (repeat with "patchwork")
+- Type 'ggplot2' into the 'Packages' box, and click on 'Install' (repeat for the other packages)
 
 <img src="./figures/A1_packages_edit.png" alt="RStudio Packages Tab" style="height: 500px;"/>
 
