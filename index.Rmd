@@ -98,7 +98,7 @@ In RStudio:
 - Click on the 'Install' button right below the tab
 - Type 'ggplot2' into the 'Packages' box, and click on 'Install' (repeat with "patchwork")
 
-<img src="figures/A1_packages_edit.png" alt="RStudio Packages Tab" style="height: 500px;"/>
+<img src="./figures/A1_packages_edit.png" alt="RStudio Packages Tab" style="height: 500px;"/>
 
 - This may take a while (you will see lots of download text in red in your console)
 - When it's finished, you should see a message similar this one to in the console (lower left hand pane)
