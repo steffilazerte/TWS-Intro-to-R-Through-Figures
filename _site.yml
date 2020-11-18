@@ -1,5 +1,5 @@
 name: "TWS - Intro to R Through Figures"
-exclude: [""]
+exclude: ["cache"]
 output_dir: "docs"
 navbar:
   title: "TWS - Intro to R Through Figures"

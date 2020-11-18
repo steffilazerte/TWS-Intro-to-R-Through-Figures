@@ -14,7 +14,7 @@ file.copy("../AA_Common/Figures/A1_packages_edit.png", "./figures/", overwrite =
 I'm excited for the opportunity to share my love of R with you through this workshop. 
 This site should give you all the details you need to get you ready to participate.
 
-**Date:** Thurs Nov 19th  
+**Date:** Thurs Nov 19th 2020  
 **Time:** 6:30 - 9:00 pm  
 **Where:** Zoom (link to be mailed out close to the date)
 
