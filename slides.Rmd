@@ -11,4 +11,4 @@ file.copy(f, "slides/")
 
 
 - Regular Slides ([PDF](slides/TWS - Intro to R through Figures 2020.pdf) | [PDF Handout Style](slides/TWS - Intro to R through Figures 2020-print.pdf))
-- Answer Slides ([PDF](sliTWS - Intro to R through Figures 2020 - answers.pdf) | [PDF Handout Style](sliTWS - Intro to R through Figures 2020 - answers-print.pdf)) [*Available after the workshop*]
+- Answer Slides ([PDF](sliTWS - Intro to R through Figures 2020 - answers.pdf) | [PDF Handout Style](sliTWS - Intro to R through Figures 2020 - answers-print.pdf))
