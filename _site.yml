@@ -1,8 +1,8 @@
-name: "Bird Cave - Intro to R Through Figures"
+name: "TWS - Intro to R Through Figures"
 exclude: ["cache"]
 output_dir: "docs"
 navbar:
-  title: "Bird Cave - Intro to R Through Figures"
+  title: "TWS - Intro to R Through Figures"
   left:
     - text: "Prep"
       href: index.html
