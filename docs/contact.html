@@ -30,7 +30,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -76,6 +76,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -312,11 +313,6 @@ $(document).ready(function () {
 <ul>
 <li>Stefanie LaZerte (<a href="mailto:sel@steffilazerte.ca" class="email">sel@steffilazerte.ca</a>)</li>
 <li><a href="https://steffilazerte.ca" class="uri">https://steffilazerte.ca</a></li>
-<li>Need to chat in person?
-<ul>
-<li>Book a meeting on <a href="https://calendly.com/talk-to-steffi/30min?month=2020-09">Calendly</a></li>
-<li>Meet me in Whereby (instructions when you book)</li>
-</ul></li>
 </ul>
 </div>
 
@@ -329,7 +325,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

@@ -1,5 +1,5 @@
 ---
-title: TWS - Intro to R Through Figures
+title: Bird Cave - Intro to R Through Figures
 ---
 
 
@@ -14,10 +14,9 @@ file.copy("../AA_Common/Figures/A1_packages_edit.png", "./figures/", overwrite =
 I'm excited for the opportunity to share my love of R with you through this workshop. 
 This site should give you all the details you need to get you ready to participate.
 
-**Date:** Thurs Nov 19th 2020  
-**Time:** 6:30 - 9:00 pm  
-**Where:** Zoom (link to be mailed out close to the date)
-
+**Date:** Wednesday Jan 19th 2021  
+**Time:** 4:00 - 8:30 pm (Pacific)
+**Where:** Zoom (See Ken's email)
 
 We are going to be covering a lot in this workshop, so to give us a jump start, I've compiled some things you should have done before hand:
 
