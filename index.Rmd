@@ -5,7 +5,7 @@ title: Bird Cave - Intro to R Through Figures
 
 ```{r, include = FALSE}
 if(!dir.exists("./figures/")) dir.create("./figures")
-file.copy("../../AA_Common/Figures/A1_packages_edit.png", "./figures/", overwrite = TRUE)
+file.copy("../AA_Common/Figures/A1_packages_edit.png", "./figures/", overwrite = TRUE)
 ```
 
 
